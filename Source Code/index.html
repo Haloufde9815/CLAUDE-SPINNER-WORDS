@@ -18,6 +18,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claude Thinking Simulator | Amey Thakur</title>
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#D97757">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <!-- Asset loading: CSS stylesheets -->
     <link rel="stylesheet" href="css/base.css">
@@ -212,13 +217,16 @@
         </footer>
     </div>
 
-    <!-- Asset loading: JavaScript modules -->
-    <script src="js/verbs.js"></script>
-    <script src="js/engine.js"></script>
-    <script src="js/loader.js"></script>
-    <script src="js/signature.js"></script>
-    <script src="js/state_sim.js"></script>
-    <script src="js/navigation.js"></script>
-    <script src="js/app.js"></script>
+    <!-- Asset loading: JavaScript (Optimized Bundle & Service Worker) -->
+    <script defer src="js/dist/bundle.min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Kernel Service Worker Registered'))
+                    .catch(err => console.log('SW Registration Failed', err));
+            });
+        }
+    </script>
 </body>
 </html>

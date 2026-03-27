@@ -1,0 +1,23 @@
+{
+    "name": "Claude Thinking Simulator",
+    "short_name": "ClaudeSim",
+    "description": "Autonomous technical registry and state indicator workstation simulator.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#0A0A0A",
+    "theme_color": "#D97757",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "assets/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "education",
+        "utilities",
+        "productivity"
+    ]
+}
