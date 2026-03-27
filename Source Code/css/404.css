@@ -113,18 +113,18 @@ body {
         height: 50px;
     }
 
-    .terminal-404-body {
-        padding: 12px;
+    .terminal-body {
+        padding: 10px 12px !important;
         gap: 0.8vh;
     }
 
     .ascii-404 {
         font-size: 6px; /* Reduced further */
-        margin-bottom: 1vh;
+        margin-bottom: 0.8vh;
     }
 
     .terminal-log {
-        font-size: 11px; /* Small enough for 1 line */
+        font-size: 9.5px; /* Ensuring full fit on 320px screens */
         margin-bottom: 0.8vh;
         white-space: nowrap;
     }
