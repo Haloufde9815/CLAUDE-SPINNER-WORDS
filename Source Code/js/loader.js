@@ -30,20 +30,22 @@ class TerminalLoader {
         ];
 
         let currentProgress = 0;
-        for (const step of bootSteps) {
-            // Animate progress to target for this step
-            while (currentProgress < step.progress) {
-                currentProgress++;
-                this.statusText.innerHTML = `${step.text} <span class="loader-percent">(${currentProgress}%)</span>`;
-                // Variable speed for realistic 'processing' feel
-                const jitter = Math.random() * 20;
-                await this.delay(10 + jitter);
+        try {
+            for (const step of bootSteps) {
+                while (currentProgress < step.progress) {
+                    currentProgress++;
+                    this.statusText.innerHTML = `${step.text} <span class="loader-percent">(${currentProgress}%)</span>`;
+                    const jitter = Math.random() * 15;
+                    await this.delay(8 + jitter);
+                }
+                await this.delay(350);
             }
-            await this.delay(400); // Brief pause on milestone
+        } catch (e) {
+            console.error("Boot loader error:", e);
+        } finally {
+            await this.delay(200);
+            this.loader.classList.add('hidden');
         }
-
-        await this.delay(200);
-        this.loader.classList.add('hidden');
         return this.delay(600); 
     }
 

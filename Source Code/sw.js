@@ -5,13 +5,9 @@
  * Repository: https://github.com/Amey-Thakur/CLAUDE-SPINNER-WORDS
  * Release Date: March 27 2026
  * License: MIT
- * 
- * Description:
- * Core service worker for the Claude Thinking Simulator. 
- * Implements a robust "Cache-First" strategy for high-performance offline access.
  */
 
-const CACHE_NAME = 'claude-spinner-cache-v2';
+const CACHE_NAME = 'claude-spinner-cache-v3';
 const ASSETS = [
     './',
     './index.html',
@@ -52,14 +48,10 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request).then((response) => {
-            // Return cached response if found, otherwise fetch from network
             return response || fetch(event.request).then((networkResponse) => {
-                // Return network response immediately if caching is not appropriate
-                if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic' && !event.request.url.startsWith('http')) {
+                if (!networkResponse || networkResponse.status !== 200 || (networkResponse.type !== 'basic' && !event.request.url.startsWith('http'))) {
                     return networkResponse;
                 }
-
-                // Dynamically cache external requests like Google Fonts
                 return caches.open(CACHE_NAME).then((cache) => {
                     if (event.request.url.startsWith('http')) {
                         cache.put(event.request, networkResponse.clone());

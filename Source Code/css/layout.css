@@ -70,19 +70,22 @@
 
 .repo-title {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(38px, 6vh, 76px);
+    font-size: clamp(42px, 7vh, 84px); /* Increased from 38px/76px */
     font-weight: 700;
     margin: 0;
-    letter-spacing: -3px;
+    letter-spacing: 1px; /* Changed from -3px to widen it */
     color: var(--text-primary);
     line-height: 0.9;
+    text-transform: none;
+    display: block;
+    width: 100%; /* Ensure it spans the container */
 }
 
 @media (max-width: 480px) {
     .repo-title {
-        font-size: clamp(32px, 5vh, 48px); /* Refined mobile title size */
-        letter-spacing: -1.5px;
-        line-height: 1.1; /* Increased line-height to prevent overlap on mobile wrap */
+        font-size: clamp(34px, 5.5vh, 52px); /* Refined mobile title size */
+        letter-spacing: 0.5px;
+        line-height: 1.1; 
     }
 }
 
@@ -92,14 +95,15 @@
     font-family: 'JetBrains Mono', monospace;
     font-size: clamp(12px, 1.5vh, 18px);
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 10px; /* Increased from 8px for wider spread */
     color: var(--text-secondary);
     margin: 12px 0 0 0;
+    opacity: 0.8;
 }
 
 @media (max-width: 480px) {
     .tagline {
-        letter-spacing: 3px;
+        letter-spacing: 4px;
     }
 }
 
