@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    font-size: clamp(16px, 2vh, 24px);
+    font-size: clamp(18px, 2.5vh, 32px);
     text-transform: lowercase;
     letter-spacing: 0.1em;
     color: #FFF;
@@ -49,9 +49,9 @@
 }
 
 .diag-header p {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-secondary);
-    margin-top: 12px;
+    margin-top: 15px;
     letter-spacing: 0.05em;
 }
 
@@ -79,11 +79,19 @@
 
 .diag-terminal .titlebar {
     background: #1A1A19;
-    padding: 15px 25px;
+    padding: 12px 20px;
     display: flex;
     align-items: center;
     gap: 12px;
     border-bottom: 1px solid var(--border-color);
+}
+
+.diag-terminal .titlebar .titlebar-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.15); /* High-fidelity low-alpha mute */
+    letter-spacing: 0.08em;
+    font-weight: 400;
 }
 
 .diag-body {
