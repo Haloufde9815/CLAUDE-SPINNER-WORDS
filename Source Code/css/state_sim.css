@@ -99,6 +99,12 @@
     min-height: 300px;
 }
 
+@media (max-width: 480px) {
+    .diag-body {
+        padding: 25px 15px;
+    }
+}
+
 /* ── Boot Header ── */
 .diag-boot-header {
     margin-bottom: 35px;
@@ -222,6 +228,12 @@
     gap: 12px;
 }
 
+@media (max-width: 480px) {
+    .control-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .control-btn {
     background: var(--code-bg);
     border: 1px solid var(--border-color);
@@ -284,8 +296,12 @@
 @keyframes pulseDiag { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 @keyframes blinkDiag { 0%, 100% { opacity: 1; } 50% { opacity: 0.1; } }
 
-@media (max-width: 600px) {
-    .control-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 768px) {
+    .control-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+    .control-grid { grid-template-columns: 1fr; }
 }
 
 /* ── Custom Scrollbar Orchestration ── */

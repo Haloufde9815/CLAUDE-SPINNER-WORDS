@@ -43,6 +43,12 @@
     position: relative;
 }
 
+@media (max-width: 480px) {
+    .terminal-body {
+        padding: 25px 15px;
+    }
+}
+
 .ascii-logo {
     color: var(--accent-color);
     font-size: clamp(12px, 1.5vh, 22px);
@@ -50,6 +56,12 @@
     white-space: pre;
     opacity: 0.9;
     filter: drop-shadow(0 0 15px rgba(217, 119, 87, 0.3));
+}
+
+@media (max-width: 768px) {
+    .ascii-logo {
+        display: none;
+    }
 }
 
 .cli-prompt {

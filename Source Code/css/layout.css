@@ -31,6 +31,16 @@
     margin-bottom: 1.5vh;
 }
 
+@media (max-width: 768px) {
+    .header-branding {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 3vh;
+    }
+}
+
 .branding-logo {
     width: clamp(70px, 9vh, 110px);
     height: clamp(70px, 9vh, 110px);
@@ -39,6 +49,10 @@
 .branding-logo svg path { fill: var(--accent-color); }
 
 .title-group { text-align: left; }
+
+@media (max-width: 768px) {
+    .title-group { text-align: center; }
+}
 
 .repo-title {
     font-family: 'Inter', sans-serif;
@@ -49,6 +63,13 @@
     color: var(--text-primary);
     line-height: 0.9;
 }
+
+@media (max-width: 480px) {
+    .repo-title {
+        letter-spacing: -1px;
+    }
+}
+
 .repo-title span { font-weight: 300; color: var(--accent-color); opacity: 0.95; }
 
 .tagline {
@@ -58,6 +79,12 @@
     letter-spacing: 8px;
     color: var(--text-secondary);
     margin: 12px 0 0 0;
+}
+
+@media (max-width: 480px) {
+    .tagline {
+        letter-spacing: 3px;
+    }
 }
 
 footer {
