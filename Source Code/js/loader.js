@@ -20,7 +20,17 @@ class TerminalLoader {
     }
 
     async boot() {
-        if (!this.loader || !this.statusText) return Promise.resolve();
+        console.log("Terminal Kernel: Initiating boot sequence...");
+        if (!this.loader || !this.statusText) {
+            console.warn("Terminal Kernel: Loader elements missing, bypassing.");
+            return Promise.resolve();
+        }
+
+        // Failsafe: Force hide after 5 seconds regardless of progress
+        const timeout = setTimeout(() => {
+            console.warn("Terminal Kernel: Boot sequence timed out. Force-revealing UI.");
+            this.loader.classList.add('hidden');
+        }, 5000);
 
         const bootSteps = [
             { text: "INITIALIZING KERNEL...", progress: 25 },
@@ -38,13 +48,15 @@ class TerminalLoader {
                     const jitter = Math.random() * 15;
                     await this.delay(8 + jitter);
                 }
-                await this.delay(350);
+                await this.delay(300);
             }
         } catch (e) {
-            console.error("Boot loader error:", e);
+            console.error("Terminal Kernel: Boot failure.", e);
         } finally {
+            clearTimeout(timeout);
             await this.delay(200);
             this.loader.classList.add('hidden');
+            console.log("Terminal Kernel: Boot sequence finalized.");
         }
         return this.delay(600); 
     }

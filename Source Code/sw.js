@@ -7,7 +7,7 @@
  * License: MIT
  */
 
-const CACHE_NAME = 'claude-spinner-cache-v3';
+const CACHE_NAME = 'claude-spinner-cache-v4';
 const ASSETS = [
     './',
     './index.html',
@@ -20,7 +20,7 @@ const ASSETS = [
     './css/loader.css',
     './css/state_sim.css',
     './css/navigation.css',
-    './js/dist/bundle.min.js'
+    './js/dist/bundle.min.js?v=4'
 ];
 
 self.addEventListener('install', (event) => {
