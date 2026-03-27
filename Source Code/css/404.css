@@ -92,3 +92,53 @@ body {
     color: #000;
     box-shadow: 0 0 20px rgba(217, 119, 87, 0.4);
 }
+@media (max-width: 480px) {
+    body {
+        padding: 2vh 15px !important;
+    }
+    
+    .main-wrapper {
+        width: 100% !important;
+        gap: 1.5vh;
+    }
+
+    .header-branding {
+        gap: 15px;
+        margin-bottom: 1.5vh;
+    }
+
+    .branding-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .terminal-404-body {
+        padding: 15px;
+        gap: 1vh;
+    }
+
+    .ascii-404 {
+        font-size: 8px; /* Force small to fit */
+        margin-bottom: 1.5vh;
+    }
+
+    .terminal-log {
+        font-size: 14px; /* Scaled down for mobile */
+        margin-bottom: 1vh;
+    }
+
+    .simulation-container-404 {
+        padding: 10px 15px;
+        gap: 15px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .recovery-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 1vh;
+        width: 100%;
+        text-align: center;
+    }
+}
