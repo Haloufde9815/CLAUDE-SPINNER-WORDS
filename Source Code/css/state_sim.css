@@ -95,8 +95,46 @@
 }
 
 .diag-body {
-    padding: clamp(30px, 4.5vh, 60px);
+    padding: clamp(25px, 4vh, 50px);
     min-height: 300px;
+}
+
+/* ── Boot Header ── */
+.diag-boot-header {
+    margin-bottom: 35px;
+    font-family: var(--mono);
+    line-height: 1.6;
+}
+
+.diag-boot-header .boot-line-1 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.diag-boot-header .boot-prompt {
+    color: var(--terminal-green);
+    margin-right: 8px;
+}
+
+.diag-boot-header .boot-cmd {
+    color: #FFF;
+}
+
+.diag-boot-header .boot-line-2 {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.25);
+    margin-bottom: 4px;
+}
+
+.diag-boot-header .boot-line-3 {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.diag-boot-header .boot-highlight {
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 700;
 }
 
 /* ── State List ── */
