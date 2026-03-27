@@ -1,16 +1,21 @@
 /**
- * Filename: 404.css
- * Author: Amey Thakur
- * GitHub: https://github.com/Amey-Thakur
- * Repository: https://github.com/Amey-Thakur/CLAUDE-SPINNER-WORDS
- * Release Date: 2026-03-26
- * License: MIT
- *
- * Tech Stack: Vanilla CSS3
- *
- * Description: 
- * Layout and typography overrides for the terminal fallback state.
+ * Global Overrides for 404 Technical Fallback
  */
+html, body {
+    height: 100%;
+    overflow: hidden !important; /* Enforce non-scrollable state */
+}
+
+body {
+    padding: 4vh 40px !important; /* Reduced 10vh -> 4vh for vertical fitting */
+    justify-content: center; /* Center content vertically */
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 3vh 20px !important;
+    }
+}
 
 .terminal-404-body {
     flex: 1;
