@@ -24,7 +24,7 @@
 
 <div align="center">
 
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license)
+  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [Contributing](#contributing) &nbsp;·&nbsp; [Usage Guidelines](#usage-guideline) &nbsp;·&nbsp; [About](#about-this-repository)
 
 </div>
 
@@ -169,8 +169,6 @@ Stewing             Sussing             Synthesizing        Thinking            
 Transmuting         Unfurling           Unravelling         Vibing              Wandering
 Whirring            Wibbling            Wizarding           Working             Wrangling
 ```
-
----
 
 ### Specialized Extension: Friends Sitcom Registry
 
@@ -326,10 +324,10 @@ I was intrigued by how Claude 'thinks' and the unique words it uses while workin
 
   [↑ Back to Top](#readme-top)
 
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Contributing](CONTRIBUTING.md) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guideline) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository)
+  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [Contributing](#contributing) &nbsp;·&nbsp; [Usage Guidelines](#usage-guideline) &nbsp;·&nbsp; [About](#about-this-repository)
 
   <br>
 
-  <a href="https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/"><img src="Source Code/assets/favicon.svg" width="24" height="24" title="Claude Spinner Words | Global Entrance"></a> **[Live Demo](https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/)**
+  <a href="https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/"><img src="Source Code/assets/favicon.svg" width="24" height="24" title="Claude Spinner Words | Global Entrance"></a> **[Claude Spinner Words](https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/)**
 
 </div>
