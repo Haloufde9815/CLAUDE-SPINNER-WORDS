@@ -38,3 +38,7 @@ README.md text eol=lf diff=markdown
 LICENSE text eol=lf
 CITATION.cff text eol=lf
 codemeta.json text eol=lf
+
+# Linguist Overrides
+# Ensures repository language stats reflect the technical registry and automation scripts
+Source Code/** linguist-vendored
