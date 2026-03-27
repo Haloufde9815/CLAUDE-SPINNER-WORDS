@@ -15,33 +15,33 @@
 const DIAGNOSTIC_STATES = {
     idle: {
         color: '#555',
-        label: 'IDLE',
-        sub: 'ORCHESTRATION_SUSPENDED',
-        log: 'Diagnostic module transitioned to IDLE. Registry standby.'
+        label: 'Idle',
+        sub: 'Waiting for your next message or command',
+        log: 'State transitioned to Idle. Waiting for input.'
     },
     thinking: {
         color: '#ffbd2e',
-        label: 'THINKING',
-        sub: 'PLANNING_SEQUENCE_ACTIVE',
-        log: 'State → THINKING. Analyzing architectural roadmap and tool constraints.'
+        label: 'Thinking',
+        sub: 'Claude is reasoning through your request',
+        log: 'Claude is reasoning through your request...'
     },
     running: {
         color: '#3b9eff',
-        label: 'RUNNING',
-        sub: 'EXECUTION_THREAD_SPAWNED',
-        log: 'State → RUNNING. Spawning subprocess: technical_workstation_expansion.'
+        label: 'Running',
+        sub: 'Executing a shell command or tool call',
+        log: 'State → Running. Executing a tool call/command.'
     },
     waiting: {
         color: '#27c93f',
-        label: 'WAITING',
-        sub: 'USER_VERIFICATION_REQUIRED',
-        log: 'State → WAITING. Orchestration paused for external user approval.'
+        label: 'Waiting for you',
+        sub: 'Needs your approval or input to proceed',
+        log: 'State → Waiting. Action requires user approval.'
     },
     error: {
         color: '#ff5f56',
-        label: 'ERROR',
-        sub: 'SIMULATION_FAULT_DETECTED',
-        log: 'State → ERROR. Non-zero exit code detected. Initializing stack audit.'
+        label: 'Error',
+        sub: 'Something went wrong — check the output',
+        log: 'State → Error. Something went wrong — check the output.'
     }
 };
 
