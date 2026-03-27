@@ -197,9 +197,41 @@ Execute the provided shell scripts to inject selected thematic indices into your
 <a name="license"></a>
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for complete terms.
+This repository and its technical assets are made available under the **MIT License**. See the [LICENSE](LICENSE) file for complete terms.
+
+> [!NOTE]
+> **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
 
 Copyright © 2026 Amey Thakur
+
+---
+
+<!-- USAGE GUIDELINES -->
+<a name="usage-guideline"></a>
+## Usage Guidelines
+
+This repository is shared to support the analysis and personalization of the Claude Code CLI environment.
+
+**For Developers**  
+Use this codebase as a reference for **hardware-accelerated terminal UI design** and **vanilla ES6 animation orchestration**. It provides a finalized blueprint for diagnostic workstation simulators.
+
+**For Educators**  
+This software may serve as a teaching utility for **UX Diagnostic Visibility**, **Asynchronous State Logic**, and **Interactive System Design**. Attribution is appreciated when utilizing these assets.
+
+**For Researchers**  
+Use this project to study the **'stochastic signaling'** and technical cadence of state indicators in production CLI tools. The sovereignty of the workstation ensures localized verification of all 90 verbs.
+
+---
+
+<!-- ABOUT -->
+<a name="about-this-repository"></a>
+## About This Repository
+
+**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur)
+
+I was intrigued by how Claude 'thinks' and the unique words it uses while working. I wanted to personalize my own environment, but because I couldn't find any existing public registry or simulator, I built this repository. It serves as a simple, high-fidelity hub for exploring and implementing these indicators.
+
+**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 ---
 
@@ -207,6 +239,6 @@ Copyright © 2026 Amey Thakur
 
   [↑ Back to Top](#readme-top)
 
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Live Workstation](https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/)
+  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guideline) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository)
 
 </div>
