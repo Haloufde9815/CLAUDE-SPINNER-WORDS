@@ -1,63 +1,53 @@
-<!--
-    Filename: SPECIFICATION.md
-    Author: Amey Thakur
-    GitHub: https://github.com/Amey-Thakur
-    Repository: https://github.com/Amey-Thakur/CLAUDE-SPINNER-WORDS
-    Release Date: 2026-03-26
-    License: MIT
-
-    Description: 
-    Scholarly technical specification for the Claude Code CLI spinner mechanism.
-    Outlines the configuration protocol, data schema, and implementation architecture.
--->
-
 # Technical Specification: Claude Spinner Words
 
-## 1. Abstract
-This document provides a formal technical architecture and implementation protocol for the customization of asynchronous state indicators (verbs) within the Claude Code CLI workstation environment. 
+## Architectural Overview
 
-## 2. Architectural Design
-The Claude Code CLI (v2.1.23+) employs a modular, configuration-driven interface for UI state feedback. The "spinner" mechanism is a deterministic cycle that iterates through a defined registry of indicator strings during backend processing activities.
+**Claude Spinner Words** is a high-fidelity, autonomous technical registry and workstation simulator designed for the Claude Code CLI environment. The architecture provides 100% control over the asynchronous state indicators (verbs) used during processing, enabling sovereign customization and systematic verification of the terminal experience. It integrates a professional-grade emulator with a zero-dependency automation pipeline for deterministic configuration management.
 
-### 2.1 Configuration Protocol
-System-level customization is achieved via the `settings.json` configuration file. The CLI monitors this file for changes to the `spinner` object at runtime initialization.
+### Structural Data Flow
 
-*   **Windows Environment**: `%USERPROFILE%\.claude\settings.json`
-*   **Unix/macOS Environment**: `~/.claude/settings.json`
-
-### 2.2 Data Schema
-The configuration schema requires a structured JSON object under the `spinner` designator:
-
-```json
-{
-  "spinner": {
-    "mode": "replace" | "append",
-    "verbs": string[]
-  }
-}
+```mermaid
+graph TD
+    User["User Selection (Theme/Official)"] --> Registry["Technical Verb Registry (90+ Verbs)"]
+    Registry --> Pipeline["Automated Script Pipeline (PS1/SH)"]
+    Pipeline --> Config["Claude Code config (~/.claude/settings.json)"]
+    Config --> CLI["Claude Code CLI (Kernel Init)"]
+    CLI --> UI["Terminal Workstation Interface"]
+    
+    subgraph "Workstation Synchronization"
+    Source["Registry Source Code"] --> Actions["GitHub Actions CI/CD"]
+    Actions --> Preview["Live Workstation Preview (GitHub Pages)"]
+    end
 ```
 
-*   **replace**: Truncates the internal "Tengu" registry and implements the custom set as the authoritative source.
-*   **append**: Merges the custom set into the existing internal verb collection for expanded variety.
+---
 
-## 3. Implementation Heuristics
-1.  **Data Integrity**: Registries must be implemented as strictly-typed JSON arrays. Malformed JSON will cause the CLI to revert to default state indicators.
-2.  **State Synchronization**: Configuration updates are read into memory during the CLI boot sequence. Active processes require a restart for state synchronization.
-3.  **Orchestration**: Automated pipelines (PowerShell/Bash) are recommended for managing the `read-modify-write` lifecycle of the configuration file to prevent data corruption.
+## Technical Implementations
 
-## 4. Visual Synchronization
-To ensure visual fidelity across terminal workstations, this registry supports standardized light and dark mode assets.
+### 1. Engine Architecture
+-   **Sovereign Configuration Management**: Implements a strictly governed pipeline for modifying the Claude Code `settings.json` file. This ensures that custom indicator states are injected with 100% schema compliance, preventing CLI initialization failures.
+-   **Zero-Dependency Logic**: The simulator and automation scripts are written in pure Vanilla JavaScript (ES6+) and native Shell (PowerShell/Bash), requiring no external package managers (npm/yarn) for production deployment.
 
-| Environment Specification | Branded Asset Reference |
-| :--- | :--- |
-| **Light Mode Fidelity** | `assets/claude-light.png` |
-| **Dark Mode Fidelity** | `assets/claude-dark.png` |
+### 2. Logic & Synchronization
+-   **Asynchronous Typewriter Engine**: Features a surgical feedback loop in the live preview that simulates real-time CLI verb cadence. It utilizes a stochastic "shimmer" delay to mimic realistic compute-latency during state transitions.
+-   **Verified State Registry**: Maintains a canonical index of all 90 production-grade verbs audit-trailed from the Claude Code binary. This serves as the ground-truth for all thematic extensions and experimental state indicators.
+-   **High-Fidelity Boot Loader**: Integrates a preliminary terminal loading sequence that synchronizes with the kernel initialization of the simulator, providing a seamless technical experience.
 
-## 5. Registry Indices
-The project maintains a hierarchical collection of datasets to support varied technical aesthetics.
-*   **Official Registry**: Found in `official/` — the canonical codebase source.
-*   **Thematic Indices**: Found in `themes/` — professionally curated stylistic extensions.
+### 3. Workstation Emulator
+-   **Grand-Scale Workstation UI Matrix**: The interface leverages hardware-accelerated CSS3 Grid/Flexbox layouts with `clamp()`-based fluid typography. The viewport is locked to a non-scrollable `100vh` canvas for peak workstation stability.
+-   **Interactive Console Identity**: The simulator automatically initializes a developer-branded signature within the browser's technical console, duplicating the production-standard identity audit.
+
+### 4. Continuous Integration & Deployment
+-   **Automated GitHub Actions Pipeline**: Implements a specialized CI/CD workflow that auto-binds the `/Source Code` directory to GitHub Pages on every `main` branch push. This ensures the live workstation is always synchronized with the latest registry updates.
+-   **Verified Authorship Integration**: Consists of standardized, scholarly authorship headers embedded across all foundational source files, ensuring professional attribution and project integrity.
 
 ---
-**Authored by Amey Thakur, 2026.**  
-Distributed under the MIT License.
+
+## Technical Prerequisites
+
+-   **Development Environment**: Modern evergreen browser with support for CSS Grid, ES6 Modules, and the GitHub Pages hosting environment.
+-   **CLI Integration**: Claude Code CLI (v2.1.23+) correctly installed in the local path for configuration persistence.
+
+---
+
+*Technical Specification | Claude Spinner Words Registry | Version 1.0*
