@@ -3,7 +3,7 @@
   "@type": "SoftwareSourceCode",
   "license": "https://spdx.org/licenses/MIT.html",
   "name": "Claude Spinner Words",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "runtimePlatform": "Claude Code CLI",
   "author": [
     {
