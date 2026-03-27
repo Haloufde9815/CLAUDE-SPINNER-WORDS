@@ -1,0 +1,9 @@
+{
+  "theme": "High-Fantasy",
+  "description": "Epic state indicators for developers treating every line of code as a quest.",
+  "verbs": [
+    "Slaying-Bugs", "Looting-API", "Summoning-Service", "Casting-Compiler",
+    "Potion-Brewing", "Dungeon-Crawling", "Dragon-Fighting", "Enchanting-DOM",
+    "Quest-Completing", "Hero-Starting", "Leveling-Logic"
+  ]
+}
