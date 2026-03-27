@@ -147,7 +147,7 @@ The following index contains the canonical dataset of asynchronous state indicat
 > [!TIP]
 > This registry contains **90 unique words**. Claude uses these 'verbs' to show it is currently 'thinking' or 'working' on your request.
 
-```text
+```python
 Accomplishing       Actioning           Actualizing         Baking              Booping
 Brewing             Calculating         Cerebrating         Channelling         Churning
 Clauding            Coalescing          Cogitating          Combobulating       Computing
