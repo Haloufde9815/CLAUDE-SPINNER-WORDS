@@ -35,15 +35,22 @@
     .header-branding {
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 15px; /* Unified gap for tablets */
         justify-content: center;
         margin-bottom: 3vh;
+        margin-top: 2vh; /* Top clearance */
+    }
+}
+
+@media (max-width: 480px) {
+    .header-branding {
+        gap: 12px; /* Tighter integration for mobile */
     }
 }
 
 .branding-logo {
-    width: clamp(70px, 9vh, 110px);
-    height: clamp(70px, 9vh, 110px);
+    width: clamp(50px, 9vh, 110px); /* Lowered minimum for mobile balance */
+    height: clamp(50px, 9vh, 110px);
     flex-shrink: 0;
 }
 .branding-logo svg path { fill: var(--accent-color); }
@@ -51,7 +58,10 @@
 .title-group { text-align: left; }
 
 @media (max-width: 768px) {
-    .title-group { text-align: center; }
+    .title-group { 
+        text-align: center; 
+        width: 100%;
+    }
 }
 
 .repo-title {
@@ -66,7 +76,8 @@
 
 @media (max-width: 480px) {
     .repo-title {
-        letter-spacing: -1px;
+        font-size: clamp(32px, 5vh, 48px); /* Refined mobile title size */
+        letter-spacing: -1.5px;
     }
 }
 
