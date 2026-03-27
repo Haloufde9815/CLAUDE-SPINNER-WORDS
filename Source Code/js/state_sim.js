@@ -17,31 +17,31 @@ const DIAGNOSTIC_STATES = {
         color: '#555',
         label: 'Idle',
         sub: 'Waiting for your next message or command',
-        log: 'State transitioned to Idle. Waiting for input.'
+        log: 'State transitioned to idle. Ready for input.'
     },
     thinking: {
         color: '#ffbd2e',
         label: 'Thinking',
         sub: 'Claude is reasoning through your request',
-        log: 'Claude is reasoning through your request...'
+        log: 'State → thinking. Analyzing prompt and planning tool calls...'
     },
     running: {
         color: '#3b9eff',
         label: 'Running',
         sub: 'Executing a shell command or tool call',
-        log: 'State → Running. Executing a tool call/command.'
+        log: 'State → running. Spawned subprocess: bash -c "..."'
     },
     waiting: {
         color: '#27c93f',
         label: 'Waiting for you',
         sub: 'Needs your approval or input to proceed',
-        log: 'State → Waiting. Action requires user approval.'
+        log: 'State → waiting. Approval required before proceeding.'
     },
     error: {
         color: '#ff5f56',
         label: 'Error',
         sub: 'Something went wrong — check the output',
-        log: 'State → Error. Something went wrong — check the output.'
+        log: 'State → error. Exit code 1. Check stderr for details.'
     }
 };
 
@@ -124,8 +124,8 @@ function seedDiagnosticRegistry() {
     const dateStr = `${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, '0')}.${String(today.getDate()).padStart(2, '0')}`;
     
     appendDiagLog(`Diagnostic Registry v${dateStr} loaded successfully.`);
-    appendDiagLog('Establishing secure channel to technical workstation...', false);
-    appendDiagLog('Workstation verified. Current state: IDLE.', true);
+    appendDiagLog('Simulator started. Registry connected.', false);
+    appendDiagLog('Workstation ready. Current state: idle.', true);
 }
 
 /**
