@@ -47,15 +47,11 @@
 <a name="overview"></a>
 ## Overview
 
-**Claude Spinner Words** is a sovereign technical registry and workstation simulator built to provide transparency and control over the Claude Code CLI's internal state indicators. While the production CLI experience utilizes a specific array of verbs (historically associated with the "Tengu" designator) to indicate asynchronous processing, this project serves as an authoritative manual for auditing, customizing, and verifying those indicators. It provides a high-fidelity workstation simulator and zero-dependency automation pipelines for deterministic configuration management.
+Claude Spinner Words is a technical registry and workstation simulator for the Claude Code CLI. This project provides a complete index of the internal state indicators used by the CLI tool. It includes a terminal-style simulator to verify how these indicators appear in a workstation environment. Users can also find automated scripts to apply custom indicator sets to their local configuration files.
 
-> [!IMPORTANT]
-> ### Technical Specification Context
-> For a comprehensive architectural roadmap covering configuration protocols, data schema definitions, and implementation heuristics, refer to the **[SPECIFICATION.md](docs/SPECIFICATION.md)** document. This report provides a modular examination of the system's logic flow.
-
-> [!NOTE]
-> ### Defining the Workstation Identity
-> In this project, the "Workstation Identity" refers to the high-fidelity terminal aesthetic implemented in the simulator. By utilizing granular CSS3 tokens and a stochastic shimmering engine, the simulator achieves perfect parity with the production CLI environment, enabling precise verification of verb cadence and visual symmetry.
+> [!TIP]
+> ### Configuration Precedence
+> The Claude Code CLI reads the `spinner` object from the `settings.json` file during startup. If you use the `replace` mode, the internal indicator list is ignored. Ensure the `verbs` array is correctly formatted as a JSON list to maintain system stability.
 
 ---
 
