@@ -41,4 +41,4 @@ codemeta.json text eol=lf
 
 # Linguist Overrides
 # Ensures repository language stats reflect the technical registry and automation scripts
-Source Code/** linguist-vendored
+Source\ Code/** linguist-vendored
